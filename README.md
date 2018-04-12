@@ -7,11 +7,15 @@ Compresses the backup and uploads it to remote server
 
 Configuration:
 
-SFTP_HOST = '54.167.2.205'       
-SFTP_USER = 'backupuser'
-SFTP_KEY = '/home/ec2-user/.ssh/id_rsa' (why key over password)
-SFTP_DIR = '/home/backupuser/'
-SFTP_PORT = '22'
+* SFTP_HOST = '54.167.2.205'       
+
+* SFTP_USER = 'backupuser'
+
+* SFTP_KEY = '/home/ec2-user/.ssh/id_rsa' (why key over password)
+
+* SFTP_DIR = '/home/backupuser/'
+
+* SFTP_PORT = '22'
 
 Requirements:
 1) Path of the directory in which the wordpress is installed 
