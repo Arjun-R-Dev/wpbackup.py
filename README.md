@@ -28,5 +28,5 @@ Compresses the backup and uploads it to remote server
 # How to run the script:
 
 ```
-[root@web_server]# wp_backup.py  /path_to_wordpress_installation
+[root@web_server]# backup.py  /path_to_wordpress_installation
 ```
